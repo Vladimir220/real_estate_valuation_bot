@@ -1,0 +1,22 @@
+{{ define "index" }}
+{{ template "header" }}
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn-container">
+                    <h1 class="text-center">Real Estate Models</h1>
+                    <button class="btn btn-primary btn-block">Информация о моделях</button>
+                    <button class="btn btn-primary btn-block">Изменить модель оценки стоимости продажи</button>
+                    <button class="btn btn-primary btn-block">Изменить модель оценки стоимости аренды</button>
+                    <button class="btn btn-primary btn-block">Изменить модель оценки будущей стоимости продажи</button>
+                    <button class="btn btn-primary btn-block">Изменить модель оценки будущей стоимости аренды</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/index.js"></script>
+
+{{ template "footer" }}
+{{ end }}
